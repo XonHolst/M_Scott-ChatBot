@@ -1,0 +1,43 @@
+bot_name = "M_Scott"
+bot_age = "3000"
+
+print("Hello! My name is " + bot_name)
+print("I was created in " + bot_age)
+print("Please, remind me your name.")
+
+name = input()
+
+print("What a great name you have, " + name + "!")
+print("Let me guess your age.")
+print("Enter remainders of dividing your age by 3, 5 and 7.")
+
+d3 = int(input())
+d5 = int(input())
+d7 = int(input())
+
+age = (d3 * 70 + d5 * 21 + d7 * 15) % 105
+
+print("Your age is " + str(age) + ": that's a good time to start programming!")
+print("Now I will prove to you that I can count to any number you want.")
+
+count_to_number = int(input())
+i = 0
+
+while count_to_number >= i:
+    print(str(i) + " !")
+    i += 1
+
+print("Let's test your programming knowledge.")
+print("Why do we use methods?")
+
+print("1. To repeat a statement multiple times.")
+print("2. To decompose a program into several small subroutines.")
+print("3. To determine the execution time of a program.")
+print("4. To interrupt the execution of a program.")
+
+answer_to_test = int(input())
+
+while answer_to_test != 2:
+    print("Please, try again.")
+    answer_to_test = int(input())
+print("Congratulations, have a nice day!")
